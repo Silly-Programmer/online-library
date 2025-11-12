@@ -1,0 +1,40 @@
+/* Sleek design for the login page */
+body.login-page {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.login-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures the gradient doesn't peek out */
+}
+
+.login-card .card-body {
+    padding: 2.5rem;
+}
+
+.login-card .card-title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+/* General dashboard styles */
+body.dashboard-page {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.card-icon {
+    font-size: 3rem;
+    opacity: 0.3;
+}
